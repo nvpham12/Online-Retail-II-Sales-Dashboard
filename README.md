@@ -57,7 +57,7 @@ The query run times, bytes shuffled, and data processed were recorded as follows
 
 # Dashboard
 - View the actual dashboard [here](https://public.tableau.com/views/RetailSalesDashboard_17545186499380/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
-<img width="1799" height="1199" alt="retail_II_dashboard" src="https://github.com/user-attachments/assets/02b26a1e-220b-4e57-97ea-fa5438de2657" />
+<img width="1799" height="1199" alt="Dashboard" src="https://github.com/user-attachments/assets/ec6c1337-bc7a-45ec-9386-22bd1f3a8e70" />
 
 # Insights
 - Regency Cakestand 3 Tier and White Hanging Heat T-Light Holder are the products with the highest sales
