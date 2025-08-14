@@ -14,7 +14,7 @@ Build a cost-efficient sales analytics dashboard by implementing an ETL pipeline
 
 ## Links
 - [Tableau Dashboard](https://public.tableau.com/views/RetailSalesDashboard_17545186499380/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- [Full Technical Report](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/blob/main/Technical%20Report%20Online%20Retail%20Dashboard.md)
+- [Technical Report](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/blob/main/Technical%20Report%20Online%20Retail%20Dashboard.md)
 
 ## Data Source and License
 - Dataset: Online Retail II  
