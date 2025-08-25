@@ -10,6 +10,19 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 - The dataset contains information on sales occuring between 2009 and 2011 from a UK based company that typically sells gift-ware to wholesalers.
 - The dataset includes invoices, item stock codes, item descriptions, quantities sold, price, customer id, invoice timestamps, and customer country between December 2009 to December 2011.
 
+### Initial Data Table Schema
+
+| Field Name    | Type      |
+|---------------|-----------|
+| Invoice       | STRING    |
+| StockCode     | STRING    |
+| Description   | STRING    |
+| Quantity      | INTEGER   |
+| InvoiceDate   | TIMESTAMP |
+| Price         | STRING    |
+| Customer ID   | INTEGER   |
+| Country       | STRING    |
+
 ## Approach
 - Cleaned & transformed Online Retail II dataset in BigQuery.
 - Consolidated multi-step queries into an optimized end-to-end query pipeline, reducing data processed by 46% and bytes shuffled by 50%.
@@ -31,6 +44,21 @@ The SQL queries can be viewed in the [queries folder](https://github.com/nvpham1
 - Prices were converted into a numerical data type.
 - Korea was changed to South Korea (sales are assumed to be from South Korea not North Korea).
 - Sales were computed and added as a column.
+- Customer ID was moved to after StockCode and before Description.
+
+## Final Data Table Schema
+| Field Name              | Type    |
+|------------------------|---------|
+| Invoice                | STRING  |
+| StockCode              | STRING  |
+| Customer ID            | INTEGER |
+| Description            | STRING  |
+| Quantity               | INTEGER |
+| InvoiceDate_UTC        | DATE    |
+| InvoiceTimeStamp_UTC   | STRING  |
+| UnitPrice              | FLOAT   |
+| Sales                  | FLOAT   |
+| Country                | STRING  |
 
 ## Query Performance Metrics
 The query run times, bytes shuffled, and data processed were recorded as follows for later query optimization.
@@ -85,3 +113,4 @@ The query run times, bytes shuffled, and data processed were recorded as follows
 - Creator: Daqing Chen
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0) license
 - Reference: Chen, D. (2012). Online Retail II [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D.
+
