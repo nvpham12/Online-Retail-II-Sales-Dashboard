@@ -16,7 +16,6 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 - Extracted data from the query and imported it into Tableau.
 - Designed an interactive Tableau dashboard with filters for date and location, using colorblind-friendly palettes.
 
----
 # Queries
 The SQL queries can be viewed in the [queries folder](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/tree/main/queries)
 
@@ -57,12 +56,10 @@ The query run times, bytes shuffled, and data processed were recorded as follows
 - Given the size of the dataset, On-Demand Pricing should be chosen over Capacity Pricing.
 - With On-Demand Pricing, costs can be reduced by 46%.
 
----
 # Dashboard
 - View the actual dashboard [here.](https://public.tableau.com/views/RetailSalesDashboard_17545186499380/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 <img width="1799" height="1199" alt="Dashboard" src="https://github.com/user-attachments/assets/ec6c1337-bc7a-45ec-9386-22bd1f3a8e70" />
 
----
 # Executive Summary
 ## Insights
 - Regency Cakestand 3 Tier and White Hanging Heat T-Light Holder are the products with the highest sales, having close to double the sales of the next best selling item.
@@ -88,4 +85,3 @@ The query run times, bytes shuffled, and data processed were recorded as follows
 - Creator: Daqing Chen
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0) license
 - Reference: Chen, D. (2012). Online Retail II [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D.
-
