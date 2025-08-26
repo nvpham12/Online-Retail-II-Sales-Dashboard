@@ -9,6 +9,7 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 ## Data
 - The dataset contains information on sales occuring between 2009 and 2011 from a UK based company that typically sells gift-ware to wholesalers.
 - The dataset includes invoices, item stock codes, item descriptions, quantities sold, price, customer id, invoice timestamps, and customer country between December 2009 to December 2011.
+- The data contains 778,863 rows and 8 columns.
 
 ### Initial Data Table Schema
 
@@ -113,4 +114,5 @@ The query run times, bytes shuffled, and data processed were recorded as follows
 - Creator: Daqing Chen
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0) license
 - Reference: Chen, D. (2012). Online Retail II [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D.
+
 
