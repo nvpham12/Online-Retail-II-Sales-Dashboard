@@ -13,6 +13,7 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 ## Data
 - The dataset contains information on sales occuring between 2009 and 2011 from a UK based company that typically sells gift-ware to wholesalers.
 - The dataset includes invoices, item stock codes, item descriptions, quantities sold, price, customer id, invoice timestamps, and customer country between December 2009 to December 2011.
+- The data contains 778,863 rows and 8 columns.
 
 ## Approach
 - Cleaned & transformed Online Retail II dataset in BigQuery.
